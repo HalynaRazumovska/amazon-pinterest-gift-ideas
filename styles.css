@@ -133,4 +133,42 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
+}body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+#gifts {
+    margin: 2rem 0;
+}
+
+.gift-item img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gift-item img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
 }
