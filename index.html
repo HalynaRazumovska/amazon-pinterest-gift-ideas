@@ -216,7 +216,18 @@
     <footer>
         <p>&copy; 2024 My Gift Site. All Rights Reserved.</p>
     </footer>
-</body>
+</body><header>
+    <div class="container">
+        <h1>Welcome to Gift Ideas</h1>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#trending">Trending Products</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 </html>
         }
     </style>
@@ -267,7 +278,24 @@
                 <div class="category-item">
                     <img src="https://via.placeholder.com/300" alt="Trending Item 3">
                     <h3>Tech Gadgets</h3>
-                    <a href="#">View on Amazon</a>
+                    <a href="#">View on Amazon</a><section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us!</p>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</section>
                 </div>
             </div>
         </section>
@@ -301,6 +329,86 @@
     </div>
     <footer>
         <p>&copy; 2024 Amazon & Pinterest Gift Ideas | Powered by Your Affiliate Program</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon & Pinterest Gift Ideas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Amazon & Pinterest Gift Ideas</h1>
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#trending">Trending Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Categories -->
+    <section id="categories">
+        <div class="container">
+            <h2>Top Gift Categories</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="gift-for-women.jpg" alt="Gifts for Women">
+                    <h3>Gifts for Women</h3>
+                    <p>Find the perfect gifts for her.</p>
+                    <a href="https://www.amazon.com" class="button">Explore on Amazon</a>
+                </div>
+                <div class="card">
+                    <img src="gift-for-men.jpg" alt="Gifts for Men">
+                    <h3>Gifts for Men</h3>
+                    <p>Explore trending gifts for men.</p>
+                    <a href="https://www.amazon.com" class="button">Explore on Amazon</a>
+                </div>
+                <div class="card">
+                    <img src="gift-for-kids.jpg" alt="Gifts for Kids">
+                    <h3>Gifts for Kids</h3>
+                    <p>Top gifts for kids of all ages.</p>
+                    <a href="https://www.amazon.com" class="button">Explore on Amazon</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Products -->
+    <section id="trending">
+        <div class="container">
+            <h2>Trending Products</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="luxury-skincare.jpg" alt="Luxury Skincare">
+                    <h3>Luxury Skincare</h3>
+                    <a href="https://www.amazon.com" class="button">View on Amazon</a>
+                </div>
+                <div class="card">
+                    <img src="designer-bags.jpg" alt="Designer Bags">
+                    <h3>Designer Bags</h3>
+                    <a href="https://www.amazon.com" class="button">View on Amazon</a>
+                </div>
+                <div class="card">
+                    <img src="tech-gadgets.jpg" alt="Tech Gadgets">
+                    <h3>Tech Gadgets</h3>
+                    <a href="https://www.amazon.com" class="button">View on Amazon</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Amazon & Pinterest Gift Ideas | All Rights Reserved</p>
     </footer>
 </body>
 </html>
