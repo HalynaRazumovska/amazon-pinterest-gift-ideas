@@ -575,7 +575,158 @@
                     <img src="luxury-skincare.jpg" alt="Luxury Skincare">
                     <h3>Luxury Skincare</h3>
                     <a href="https://www.amazon.com" class="button">View on Amazon</a>
-                </div>
+                </div><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon & Pinterest Gift Ideas</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #fafafa, #e5e5e5);
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffa500;
+        }
+
+        section {
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .image-grid img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            background-color: #222;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Amazon & Pinterest Gift Ideas</h1>
+        <nav>
+            <ul>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#trending">Trending</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="categories">
+        <h2>Top Gift Categories</h2>
+        <div class="image-grid">
+            <img src="gifts-for-women.jpg" alt="Gifts for Women">
+            <img src="gifts-for-men.jpg" alt="Gifts for Men">
+            <img src="gifts-for-kids.jpg" alt="Gifts for Kids">
+        </div>
+    </section>
+
+    <section id="trending">
+        <h2>Trending Products</h2>
+        <div class="image-grid">
+            <img src="luxury-skincare.jpg" alt="Luxury Skincare">
+            <img src="designer-bags.jpg" alt="Designer Bags">
+            <img src="tech-gadgets.jpg" alt="Tech Gadgets">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Reach out to us!</p>
+        <form action="https://formspree.io/f/mexample" method="POST">
+            <label>
+                Your Name:
+                <input type="text" name="name" required>
+            </label>
+            <br><br>
+            <label>
+                Your Email:
+                <input type="email" name="email" required>
+            </label>
+            <br><br>
+            <label>
+                Message:
+                <textarea name="message" required></textarea>
+            </label>
+            <br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Amazon & Pinterest Gift Ideas | All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
                 <div class="card">
                     <img src="designer-bags.jpg" alt="Designer Bags">
                     <h3>Designer Bags</h3>
